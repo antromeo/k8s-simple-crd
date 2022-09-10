@@ -1,0 +1,8 @@
+apiVersion: romeo.org/v1alpha1
+kind: SimpleCr
+metadata:
+ name: simple-cr
+spec:
+ appId: example-cr
+ environmentType: dev
+ replicas: 3
